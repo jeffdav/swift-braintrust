@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:swift-braintrust}",
+            "name": "Debug swift-braintrust",
+            "program": "${workspaceFolder:swift-braintrust}/.build/debug/swift-braintrust",
+            "preLaunchTask": "swift: Build Debug swift-braintrust"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:swift-braintrust}",
+            "name": "Release swift-braintrust",
+            "program": "${workspaceFolder:swift-braintrust}/.build/release/swift-braintrust",
+            "preLaunchTask": "swift: Build Release swift-braintrust"
+        }
+    ]
+}
